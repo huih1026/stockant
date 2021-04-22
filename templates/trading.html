@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+{% from "./includes/_formhelper.html" import render_field %}
+
+{% block body %}
+	<div class="container">
+		<br>
+		<p style="font-family:trial; font-weight: bold; color: red">{{msg}}</p>
+	</div>
+
+
+	<br>
+	<div class="container">
+
+		<form method="POST" action="">
+		<div class="form-group">
+			<div>
+				{% for subfield in form.radio_tr %}
+					<td>{{ subfield }}</td>
+					<td>{{ subfield.label }}</td>
+				{% endfor %}
+			</div>
+
+			<div>
+				{% for subfield in form.radio_se %}
+					<td>{{ subfield }}</td>
+					<td>{{ subfield.label }}</td>
+				{% endfor %}
+			</div>
+			
+			<div>
+				{{ render_field(form.symbol, class_="form-control")}}
+				{{ render_field(form.quantity, class_="form-control")}}
+				{{ render_field(form.amount, class_="form-control")}}
+				{{ render_field(form.date, class_="form-control")}}
+
+				<br>
+				<input type="submit" class="btn btn-primary"  value="Submit">
+				
+			</div>
+		</div>
+		</form>
+
+	</div>
+
+		
+</div>
+	
+{% endblock %}

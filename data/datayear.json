@@ -1,0 +1,22 @@
+{
+    "2021": {
+        "stocks": {
+            "year_sto_addi": 7967.4378000000015,
+            "year_sto_cost": 24377.44276882001,
+            "year_sto_divd": 41.07,
+            "year_sto_prof": -10.89,
+            "year_sto_curr": 25555.281000000003,
+            "year_sto_gain": 1208.018231179994,
+            "year_sto_incr": 0.04955475611761505
+        },
+        "etfs": {
+            "year_etf_addi": 4092.4757142857143,
+            "year_etf_cost": 11518.020364285718,
+            "year_etf_divd": 31.08,
+            "year_etf_prof": 1.61571428571429,
+            "year_etf_curr": 12480.27291,
+            "year_etf_gain": 994.9482599999963,
+            "year_etf_incr": 0.08638188061249337
+        }
+    }
+}

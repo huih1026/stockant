@@ -1,0 +1,83 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+<div class="container">
+	<div class="jumbotron">
+		<h1 class="display-4">STOCK INVEST</h1>
+		<p class="lead">This is the test information for stock investment tracking</p>
+		<hr class="my-4">
+		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		<p class="lead">
+		<a class="btn btn-primary btn-lg" href="/apiupdate" role="button">API-Call-LAST-PRICE</a>
+		</p>
+	</div>
+	<br><br><br>
+
+
+	<!-- first table displays the year data: 3 rows, stock, etf, and total-->
+	<h4 align="center">Year Performance</h1><br>
+	<div class="container-fluid">
+		<table class="table">
+			<thead>
+			     <tr>
+					<th scope="col">#</th>
+					<th scope="col">Tot-Cost</th>
+					<th scope="col">Add</th>
+					<th scope="col">Add-%</th>
+					<th scope="col">Divdend</th>
+					<th scope="col">Profits</th>
+					<th scope="col">Values</th>
+					<th scope="col">Gain</th>
+					<th scope="col">Incr-%</th>
+			    </tr>
+			</thead>
+
+			<tbody>
+				{% for row in totyear %}
+				  <tr>
+				    {% for each in row %}
+				      	<td scope="row">{{each}}</td>
+				    {% endfor %}
+				   </tr>
+			    {% endfor %}
+	  		</tbody>
+		</table>
+	</div>
+	<br><br>
+
+	<!-- second table displays the life data: 3 rows, stock, etf, and total-->
+	<h4 align="center">Life Performance</h1><br>
+	<div class="container-fluid">
+		<table class="table">
+			<thead>
+			     <tr>
+					<th scope="col">#</th>
+					<th scope="col">LifeCost</th>
+					<th scope="col">Dividends</th>
+					<th scope="col">LifeProfits</th>
+					<th scope="col">CurrentValue</th>
+					<th scope="col">LifeGain</th>
+					<th scope="col">LifeIncr</th>
+			    </tr>
+			</thead>
+
+			<tbody>
+				{% for row in totlife %}
+				  <tr>
+				    {% for each in row %}
+				      	<td scope="row">{{each}}</td>
+				    {% endfor %}
+				   </tr>
+			    {% endfor %}
+	  		</tbody>
+		</table>
+	</div>
+
+</div>
+<br><br>
+<br><br>
+<br><br>
+
+{% endblock %}

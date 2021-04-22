@@ -1,0 +1,85 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="container">
+	<div class="jumbotron">
+		<h1 class="display-4">STOCK INVEST</h1>
+		<p class="lead">This is the test information for stock investment tracking</p>
+		<hr class="my-4">
+		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		<p class="lead">
+		<a class="btn btn-primary btn-lg" href="/trading" role="button">  -BUY OR SELL- </a>
+		</p>
+	</div>
+	<br>
+
+	<h4 align="center">Stocks</h1>
+	<table
+		data-toggle="table" 
+		data-search="true"
+		data-pagination="true"
+		data-page-list="[5, 10, 15, 25, ALL]"
+		data-show-columns="true" >
+		<thead class="thead-light" text-align="enter">
+			<tr>
+				<th scope="col">Symbol</th>
+				<th scope="col">Amount</th>
+				<th scope="col" data-sortable="true">Year-Cost</th>
+				<th scope="col">Dividend</th>
+				<th scope="col"> Profit </th>
+				<th scope="col" data-sortable="true">Last-value</th>
+				<th scope="col" data-sortable="true"> YearGain </th>
+				<th scope="col" data-sortable="true">Year-Incr</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{% for row in ps %}
+			  <tr>
+			    {% for each in row %}
+			      	<td scope="row">{{each}}</td>
+			    {% endfor %}
+			   </tr>
+		    {% endfor %}
+	  	</tbody>
+	</table>
+	<br><br>
+
+	<h4 align="center">ETFs</h1>
+	<table
+		data-toggle="table" 
+		data-search="true"
+		data-pagination="true"
+		data-page-list="[5, 10, 15, 25, ALL]"
+		data-show-columns="true" >
+		<thead class="thead-light" text-align="enter">
+			<tr>
+				<th scope="col">Symbol</th>
+				<th scope="col">Amount</th>
+				<th scope="col" data-sortable="true">Year-Cost</th>
+				<th scope="col">Dividend</th>
+				<th scope="col"> Profit </th>
+				<th scope="col" data-sortable="true">Last-value</th>
+				<th scope="col" data-sortable="true"> YearGain </th>
+				<th scope="col" data-sortable="true">Year-Incr</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{% for row in pe %}
+			  <tr>
+			    {% for each in row %}
+			      	<td scope="row">{{each}}</td>
+			    {% endfor %}
+			   </tr>
+		    {% endfor %}
+	  	</tbody>
+	</table>
+	<br><br>	
+</div>
+<br><br>
+<br><br>
+<br><br>
+
+{% endblock %}
