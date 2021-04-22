@@ -13,16 +13,41 @@
 		<a class="btn btn-primary btn-lg" href="/apiupdate" role="button">API-Call-LAST-PRICE</a>
 		</p>
 	</div>
-	<br><br><br>
+	<br><br>
 
-
-	<!-- first table displays the year data: 3 rows, stock, etf, and total-->
-	<h4 align="center">Year Performance</h1><br>
+	<!-- this table for bench mark-->
 	<div class="container-fluid">
 		<table class="table">
 			<thead>
 			     <tr>
-					<th scope="col">#</th>
+					<th scope="col">BenchMark</th>
+					<th scope="col">Life_begin</th>
+					<th scope="col">Year_begin</th>
+					<th scope="col">Globle_High</th>
+					<th scope="col">Current_Val</th>
+					<th scope="col">Dec_to_High</th>
+					<th scope="col">Year_Incr_Rate</th>
+					<th scope="col">Life_Incr_Rate</th>
+			    </tr>
+			</thead>
+
+			<tbody>
+				{% for row in totMark %}
+				    <td scope="row">{{row}}</td>
+			    {% endfor %}
+	  		</tbody>
+		</table>
+	</div>
+	<br>
+
+
+	<!-- first table displays the year data: 3 rows, stock, etf, and total-->
+	<!-- <h4 align="center">Year Performance</h1><br> -->
+	<div class="container-fluid">
+		<table class="table">
+			<thead>
+			     <tr>
+					<th scope="col">YearTable</th>
 					<th scope="col">Tot-Cost</th>
 					<th scope="col">Add</th>
 					<th scope="col">Add-%</th>
@@ -45,15 +70,15 @@
 	  		</tbody>
 		</table>
 	</div>
-	<br><br>
+	<br>
 
 	<!-- second table displays the life data: 3 rows, stock, etf, and total-->
-	<h4 align="center">Life Performance</h1><br>
+	<!-- <h4 align="center">Life Performance</h1><br> -->
 	<div class="container-fluid">
 		<table class="table">
 			<thead>
 			     <tr>
-					<th scope="col">#</th>
+					<th scope="col">LifeTable</th>
 					<th scope="col">LifeCost</th>
 					<th scope="col">Dividends</th>
 					<th scope="col">LifeProfits</th>

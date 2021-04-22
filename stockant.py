@@ -4,6 +4,7 @@ import requests
 import datetime
 from library.displayyear  import DisplayYear
 from library.displaylife  import DisplayLife
+from library.displaybench import DisplayBench
 from library.displayposi  import DisplayPositions
 from library.trading      import Trading
 from library.dividend     import Dividend
@@ -30,6 +31,10 @@ def index():
 		then need to add a new year block.
 	'''
 
+	# Get the data from benchmark
+	with open('./data/benchmark.json') as rfile:
+		bench_data = json.load(rfile)
+
 	# Get the data from the year and life file to render the table
 	with open('./data/datayear.json') as rfile:
 		year_data = json.load(rfile)
@@ -40,11 +45,13 @@ def index():
 	# tot_year: [ [stocks], [etfs] ], tot_life same format
 	inv_year = DisplayYear(year_data[curr_year])
 	inv_life = DisplayLife(life_data[curr_year])
+	ben_mark = DisplayBench(bench_data[curr_year])
 
 	tot_year = inv_year.get_curr_year_inv()
 	tot_life = inv_life.get_life_time_inv()
+	tot_mark = ben_mark.get_bench_mark()
 	
-	return render_template('index.html', totyear=tot_year, totlife=tot_life)
+	return render_template('index.html', totyear=tot_year, totlife=tot_life, totMark=tot_mark)
 
 
 @app.route('/position')
