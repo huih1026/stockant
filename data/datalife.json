@@ -1,20 +1,20 @@
 {
     "2021": {
         "stocks": {
-            "life_sto_cost": 24377.44276882001,
-            "life_sto_divd": 41.07,
-            "life_sto_prof": -10.89,
-            "life_sto_curr": 25555.281000000003,
-            "life_sto_gain": 1208.018231179994,
-            "life_sto_incr": 0.04955475611761505
+            "life_sto_cost": 24402.63860215334,
+            "life_sto_divd": 45.86999999999999,
+            "life_sto_prof": -72.43416666666664,
+            "life_sto_curr": 24983.82,
+            "life_sto_gain": 554.6172311799932,
+            "life_sto_incr": 0.02272775662591883
         },
         "etfs": {
-            "life_etf_cost": 11518.020364285718,
-            "life_etf_divd": 31.08,
-            "life_etf_prof": 1.61571428571429,
-            "life_etf_curr": 12480.27291,
-            "life_etf_gain": 994.9482599999963,
-            "life_etf_incr": 0.08638188061249337
+            "life_etf_cost": 11946.540364285716,
+            "life_etf_divd": 33.690000000000005,
+            "life_etf_prof": 10.425714285714264,
+            "life_etf_curr": 12707.304839999997,
+            "life_etf_gain": 804.8801899999951,
+            "life_etf_incr": 0.0673734960462856
         }
     }
 }

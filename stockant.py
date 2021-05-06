@@ -9,8 +9,10 @@ from library.displayposi  import DisplayPositions
 from library.trading      import Trading
 from library.dividend     import Dividend
 from library.updateinvest import UpdateInvest
-from library.updateyearfrominvest import UpdateYearFromInvest
-from library.updatelifefrominvest import UpdateLifeFromInvest
+from library.updatebench  import UpdateBench
+from library.updateyearfrominvest  import UpdateYearFromInvest
+from library.updatelifefrominvest  import UpdateLifeFromInvest
+from library.updatedisplaywatching import UpdateDisplayWatching
 from flask 				 import Flask, render_template, request, flash, redirect, session, logging, url_for
 from flask_wtf 			 import FlaskForm
 from wtforms 			 import Form, validators, FloatField, SubmitField, DateField, RadioField, StringField, SelectField
@@ -77,6 +79,17 @@ def position():
 def apiupdate():
 
 	curr_year  = str(datetime.datetime.now().year)
+
+	# first update benmark.json file
+	with open('./data/benchmark.json') as rfile:
+		ben_mark = json.load(rfile)
+
+	updateBen  = UpdateBench(ben_mark[curr_year])
+	update_ben = updateBen.get_benchmark_updated()
+
+	ben_mark[curr_year] = update_ben
+	with open('./data/benchmark.json', 'w') as wfile:
+		json.dump(ben_mark, wfile, indent=4)
 
 	'''This block to call go to call API to get latest price, 
 		then update the each symbol year_end_valu, to update
@@ -307,6 +320,30 @@ def dividend():
 	return render_template('dividend.html', form=form, msg=web_msg)
 
 
+@app.route('/updatewatch')
+def updatewatch():
+	with open('./data/watching.json') as rf:
+		read_file = json.load(rf)
+
+	object_wat = UpdateDisplayWatching(read_file)
+	data_watch = object_wat.update_watching()
+
+	with open('./data/watching.json', 'w') as wf:
+		json.dump(data_watch, wf, indent=4)
+
+	msg = 'You have successfully API-updated watching ETFs.'
+	return render_template('message.html', msg=msg)
+
+
+@app.route('/watching')
+def watching():
+	with open('./data/watching.json') as rf:
+		read_file = json.load(rf)
+
+	objec_wat = UpdateDisplayWatching(read_file)
+	table_wat = objec_wat.display_watching()
+
+	return render_template('watching.html', table=table_wat)
 
 
 if __name__ == '__main__':

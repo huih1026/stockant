@@ -1,0 +1,41 @@
+{
+    "SPY": {
+        "year_begi_2011": 125.75,
+        "year_begi_2016": 203.87,
+        "year_begi_2020": 321.86,
+        "life_high_valu": 420.72,
+        "high_valu_date": "2021-04-29",
+        "life_divd_curr": 0.0133,
+        "life_expe_rati": 0.0009,
+        "life_mgmt_rati": 0.0009,
+        "life_6mon_pric": 343.54,
+        "year_begi_pric": 373.88,
+        "most_curr_pric": 415.27
+    },
+    "DIA": {
+        "year_begi_2011": 115.63,
+        "year_begi_2016": 203.87,
+        "year_begi_2020": 285.1,
+        "life_high_valu": 342.43,
+        "high_valu_date": "2021-04-16",
+        "life_divd_curr": 0.0164,
+        "life_expe_rati": 0.0016,
+        "life_mgmt_rati": 0.0006,
+        "life_6mon_pric": 278.51,
+        "year_begi_pric": 305.79,
+        "most_curr_pric": 341.25
+    },
+    "QQQ": {
+        "year_begi_2011": 54.46,
+        "year_begi_2016": 111.86,
+        "year_begi_2020": 212.61,
+        "life_high_valu": 342.23,
+        "high_valu_date": "2021-04-16",
+        "life_divd_curr": 0.0052,
+        "life_expe_rati": 0.002,
+        "life_mgmt_rati": 0.0,
+        "life_6mon_pric": 286.91,
+        "year_begi_pric": 313.74,
+        "most_curr_pric": 329.81
+    }
+}

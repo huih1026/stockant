@@ -56,6 +56,7 @@ class Trading:
 			y, m, d = startDate.year, startDate.month, startDate.day
 			epoch_beg = int(datetime.datetime(y, m, d, 0, 0).timestamp() * 1000)
 			payload['startDate'] = epoch_beg
+			payload['endDate'] = epoch_beg
 			count += 1
 
 		return {'empty': True}
@@ -161,8 +162,10 @@ class Trading:
 		invest[args['symb']]['life_tot_cost'] -= invest[args['symb']]['life_avg_cost'] * args['quan']
 		invest[args['symb']]['year_tot_cost'] -= invest[args['symb']]['year_avg_cost'] * args['quan']
 
-		invest[args['symb']]['life_tot_prof'] = (args['amnt'] / args['quan'] - invest[args['symb']]['life_avg_cost']) * args['quan']
-		invest[args['symb']]['year_tot_prof'] = (args['amnt'] / args['quan'] - invest[args['symb']]['year_avg_cost']) * args['quan']
+		life_this_prof = (args['amnt'] / args['quan'] - invest[args['symb']]['life_avg_cost']) * args['quan']
+		year_this_prof = (args['amnt'] / args['quan'] - invest[args['symb']]['year_avg_cost']) * args['quan']
+		invest[args['symb']]['life_tot_prof'] += life_this_prof
+		invest[args['symb']]['year_tot_prof'] += year_this_prof
 
 		invest[args['symb']]['year_end_valu'] = price * invest[args['symb']]['year_tot_amnt']
 
@@ -175,15 +178,9 @@ class Trading:
 			invest[args['symb']]['life_tot_cost'] = 0.00
 			invest[args['symb']]['life_avg_cost'] = 0.00
 
-			invest[args['symb']]['year_beg_amnt'] = 0.00
-			invest[args['symb']]['year_add_amnt'] = 0.00
-			invest[args['symb']]['year_tot_amnt'] = 0.00
-
-			invest[args['symb']]['year_beg_cost'] = 0.00
-			invest[args['symb']]['year_add_cost'] = 0.00
 			invest[args['symb']]['year_tot_cost'] = 0.00
-			
 			invest[args['symb']]['year_avg_cost'] = 0.00
+			
 			invest[args['symb']]['year_end_valu'] = 0.00
 
 		return invest, log

@@ -15,24 +15,24 @@
             "year_avg_cost": 223.24714285714285,
             "year_tot_divd": 7.28,
             "year_tot_prof": 0.0,
-            "year_end_valu": 3645.5999999999995
+            "year_end_valu": 3448.1299999999997
         },
         "AAPL": {
             "life_liv_stat": true,
-            "life_avg_cost": 128.61249999999998,
-            "life_tot_cost": 3086.7,
+            "life_avg_cost": 128.86923076923077,
+            "life_tot_cost": 3350.6,
             "life_tot_divd": 2.87,
             "life_tot_prof": 0.0,
             "year_beg_amnt": 14,
-            "year_add_amnt": 10,
-            "year_tot_amnt": 24,
+            "year_add_amnt": 12.0,
+            "year_tot_amnt": 26.0,
             "year_beg_cost": 1857.6599999999999,
-            "year_add_cost": 1229.04,
-            "year_tot_cost": 3086.7,
-            "year_avg_cost": 128.61249999999998,
+            "year_add_cost": 1492.94,
+            "year_tot_cost": 3350.6,
+            "year_avg_cost": 128.86923076923077,
             "year_tot_divd": 2.87,
             "year_tot_prof": 0.0,
-            "year_end_valu": 3201.6000000000004
+            "year_end_valu": 3329.04
         },
         "MA": {
             "life_liv_stat": true,
@@ -49,7 +49,7 @@
             "year_avg_cost": 351.162,
             "year_tot_divd": 1.76,
             "year_tot_prof": 0.0,
-            "year_end_valu": 1915.5
+            "year_end_valu": 1845.6999999999998
         },
         "V": {
             "life_liv_stat": true,
@@ -66,7 +66,7 @@
             "year_avg_cost": 218.73,
             "year_tot_divd": 2.24,
             "year_tot_prof": 0.0,
-            "year_end_valu": 1592.1499999999999
+            "year_end_valu": 1604.47
         },
         "UNH": {
             "life_liv_stat": true,
@@ -83,24 +83,24 @@
             "year_avg_cost": 345.94,
             "year_tot_divd": 5.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 1592.96
+            "year_end_valu": 1650.0
         },
         "STNE": {
             "life_liv_stat": true,
-            "life_avg_cost": 75.97200000000001,
-            "life_tot_cost": 1519.44,
+            "life_avg_cost": 74.81545454545454,
+            "life_tot_cost": 1645.94,
             "life_tot_divd": 0.0,
             "life_tot_prof": 0.0,
             "year_beg_amnt": 4,
-            "year_add_amnt": 16,
-            "year_tot_amnt": 20,
+            "year_add_amnt": 18.0,
+            "year_tot_amnt": 22.0,
             "year_beg_cost": 335.68,
-            "year_add_cost": 1183.76,
-            "year_tot_cost": 1519.44,
-            "year_avg_cost": 75.97200000000001,
+            "year_add_cost": 1310.26,
+            "year_tot_cost": 1645.94,
+            "year_avg_cost": 74.81545454545454,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 1337.6
+            "year_end_valu": 1371.7
         },
         "SNPS": {
             "life_liv_stat": true,
@@ -117,7 +117,7 @@
             "year_avg_cost": 251.93,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 1010.24
+            "year_end_valu": 949.84
         },
         "YETI": {
             "life_liv_stat": true,
@@ -134,13 +134,13 @@
             "year_avg_cost": 68.101,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 858.5
+            "year_end_valu": 867.0
         },
         "JPM": {
             "life_liv_stat": true,
             "life_avg_cost": 127.07,
             "life_tot_cost": 635.35,
-            "life_tot_divd": 4.5,
+            "life_tot_divd": 9.0,
             "life_tot_prof": 0.0,
             "year_beg_amnt": 5,
             "year_add_amnt": 0,
@@ -149,9 +149,9 @@
             "year_add_cost": 0.0,
             "year_tot_cost": 635.35,
             "year_avg_cost": 127.07,
-            "year_tot_divd": 4.5,
+            "year_tot_divd": 9.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 752.6999999999999
+            "year_end_valu": 787.6
         },
         "BAC": {
             "life_liv_stat": true,
@@ -168,24 +168,24 @@
             "year_avg_cost": 31.369,
             "year_tot_divd": 3.06,
             "year_tot_prof": 0.0,
-            "year_end_valu": 774.4
+            "year_end_valu": 827.8
         },
         "PLUG": {
             "life_liv_stat": true,
-            "life_avg_cost": 35.73232558139535,
-            "life_tot_cost": 1536.49,
+            "life_avg_cost": 33.00083333333333,
+            "life_tot_cost": 1419.0358333333334,
             "life_tot_divd": 0.0,
-            "life_tot_prof": 0.0,
+            "life_tot_prof": -102.21416666666667,
             "year_beg_amnt": 0,
             "year_add_amnt": 43.0,
             "year_tot_amnt": 43.0,
             "year_beg_cost": 0.0,
-            "year_add_cost": 1536.49,
-            "year_tot_cost": 1536.49,
-            "year_avg_cost": 35.73232558139535,
+            "year_add_cost": 1419.0358333333334,
+            "year_tot_cost": 1419.0358333333334,
+            "year_avg_cost": 33.00083333333333,
             "year_tot_divd": 0.0,
-            "year_tot_prof": 0.0,
-            "year_end_valu": 1164.01
+            "year_tot_prof": -102.21416666666667,
+            "year_end_valu": 1043.18
         },
         "ZTS": {
             "life_liv_stat": true,
@@ -202,24 +202,24 @@
             "year_avg_cost": 164.66222222222223,
             "year_tot_divd": 1.0,
             "year_tot_prof": -7.63,
-            "year_end_valu": 595.945
+            "year_end_valu": 609.07
         },
         "BABA": {
             "life_liv_stat": true,
-            "life_avg_cost": 234.55999999999997,
-            "life_tot_cost": 703.68,
+            "life_avg_cost": 232.7925,
+            "life_tot_cost": 931.17,
             "life_tot_divd": 0.0,
             "life_tot_prof": 0.0,
             "year_beg_amnt": 2,
-            "year_add_amnt": 1,
-            "year_tot_amnt": 3,
+            "year_add_amnt": 2.0,
+            "year_tot_amnt": 4.0,
             "year_beg_cost": 465.46,
-            "year_add_cost": 238.22,
-            "year_tot_cost": 703.68,
-            "year_avg_cost": 234.55999999999997,
+            "year_add_cost": 465.71000000000004,
+            "year_tot_cost": 931.1700000000001,
+            "year_avg_cost": 232.79250000000002,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 688.3199999999999
+            "year_end_valu": 907.12
         },
         "BA": {
             "life_liv_stat": true,
@@ -236,7 +236,7 @@
             "year_avg_cost": 211.23200000000003,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 589.85
+            "year_end_valu": 570.25
         },
         "AMZN": {
             "life_liv_stat": true,
@@ -253,7 +253,7 @@
             "year_avg_cost": 3222.6748440999995,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 671.966
+            "year_end_valu": 654.49
         },
         "PG": {
             "life_liv_stat": true,
@@ -270,7 +270,7 @@
             "year_avg_cost": 135.2825,
             "year_tot_divd": 2.37,
             "year_tot_prof": 0.0,
-            "year_end_valu": 548.24
+            "year_end_valu": 533.44
         },
         "WMT": {
             "life_liv_stat": true,
@@ -287,7 +287,7 @@
             "year_avg_cost": 141.1125,
             "year_tot_divd": 3.2800000000000002,
             "year_tot_prof": 0.0,
-            "year_end_valu": 565.2
+            "year_end_valu": 562.54
         },
         "BRK.B": {
             "life_liv_stat": true,
@@ -304,7 +304,7 @@
             "year_avg_cost": 231.87,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 543.7
+            "year_end_valu": 565.1
         },
         "KL": {
             "life_liv_stat": true,
@@ -321,75 +321,75 @@
             "year_avg_cost": 38.32625,
             "year_tot_divd": 3.8400000000000003,
             "year_tot_prof": 0.0,
-            "year_end_valu": 628.0
+            "year_end_valu": 614.24
         },
         "CDNS": {
             "life_liv_stat": true,
-            "life_avg_cost": 136.26000000000002,
-            "life_tot_cost": 476.91,
+            "life_avg_cost": 135.79500000000002,
+            "life_tot_cost": 543.1800000000001,
             "life_tot_divd": 0.0,
             "life_tot_prof": 0.0,
             "year_beg_amnt": 2,
-            "year_add_amnt": 1.5,
-            "year_tot_amnt": 3.5,
+            "year_add_amnt": 2.0,
+            "year_tot_amnt": 4.0,
             "year_beg_cost": 272.86,
-            "year_add_cost": 204.05,
-            "year_tot_cost": 476.91,
-            "year_avg_cost": 136.26000000000002,
+            "year_add_cost": 270.32,
+            "year_tot_cost": 543.1800000000001,
+            "year_avg_cost": 135.79500000000002,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 495.25
+            "year_end_valu": 507.56
         },
         "GE": {
+            "life_liv_stat": false,
+            "life_avg_cost": 0.0,
+            "life_tot_cost": 0.0,
+            "life_tot_divd": 0.3,
+            "life_tot_prof": 5.4900000000000215,
+            "year_beg_amnt": 0.0,
+            "year_add_amnt": 0.0,
+            "year_tot_amnt": 0.0,
+            "year_beg_cost": 0.0,
+            "year_add_cost": 0.0,
+            "year_tot_cost": 0.0,
+            "year_avg_cost": 0.0,
+            "year_tot_divd": 0.3,
+            "year_tot_prof": 5.4900000000000215,
+            "year_end_valu": 0.0
+        },
+        "FISV": {
+            "life_liv_stat": false,
+            "life_avg_cost": 0.0,
+            "life_tot_cost": 0.0,
+            "life_tot_divd": 0.0,
+            "life_tot_prof": 31.92,
+            "year_beg_amnt": 4,
+            "year_add_amnt": -4.0,
+            "year_tot_amnt": 0.0,
+            "year_beg_cost": 455.44,
+            "year_add_cost": -455.44,
+            "year_tot_cost": 0.0,
+            "year_avg_cost": 0.0,
+            "year_tot_divd": 0.0,
+            "year_tot_prof": 31.92,
+            "year_end_valu": 0.0
+        },
+        "LU": {
             "life_liv_stat": true,
-            "life_avg_cost": 13.105142857142857,
-            "life_tot_cost": 458.68,
+            "life_avg_cost": 13.653714285714285,
+            "life_tot_cost": 477.88,
             "life_tot_divd": 0.0,
             "life_tot_prof": 0.0,
             "year_beg_amnt": 0,
             "year_add_amnt": 35.0,
             "year_tot_amnt": 35.0,
             "year_beg_cost": 0.0,
-            "year_add_cost": 458.68,
-            "year_tot_cost": 458.68,
-            "year_avg_cost": 13.105142857142857,
+            "year_add_cost": 477.88,
+            "year_tot_cost": 477.88,
+            "year_avg_cost": 13.653714285714285,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 466.55
-        },
-        "FISV": {
-            "life_liv_stat": true,
-            "life_avg_cost": 113.86,
-            "life_tot_cost": 341.58,
-            "life_tot_divd": 0.0,
-            "life_tot_prof": -3.26,
-            "year_beg_amnt": 4,
-            "year_add_amnt": -1,
-            "year_tot_amnt": 3,
-            "year_beg_cost": 455.44,
-            "year_add_cost": -113.86,
-            "year_tot_cost": 341.58,
-            "year_avg_cost": 113.86,
-            "year_tot_divd": 0.0,
-            "year_tot_prof": -3.26,
-            "year_end_valu": 374.46
-        },
-        "LU": {
-            "life_liv_stat": true,
-            "life_avg_cost": 14.046,
-            "life_tot_cost": 421.38,
-            "life_tot_divd": 0.0,
-            "life_tot_prof": 0.0,
-            "year_beg_amnt": 0,
-            "year_add_amnt": 30,
-            "year_tot_amnt": 30,
-            "year_beg_cost": 0.0,
-            "year_add_cost": 421.38,
-            "year_tot_cost": 421.38,
-            "year_avg_cost": 14.046,
-            "year_tot_divd": 0.0,
-            "year_tot_prof": 0.0,
-            "year_end_valu": 405.0
+            "year_end_valu": 398.3
         },
         "SNOW": {
             "life_liv_stat": true,
@@ -406,7 +406,7 @@
             "year_avg_cost": 268.9,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 462.78
+            "year_end_valu": 426.82
         },
         "DIS": {
             "life_liv_stat": true,
@@ -423,24 +423,24 @@
             "year_avg_cost": 181.18,
             "year_tot_divd": 0.0,
             "year_tot_prof": 0.0,
-            "year_end_valu": 366.18
+            "year_end_valu": 363.68
         },
         "CVX": {
             "life_liv_stat": true,
-            "life_avg_cost": 84.45,
-            "life_tot_cost": 253.35000000000002,
+            "life_avg_cost": 91.12,
+            "life_tot_cost": 455.6,
             "life_tot_divd": 3.87,
             "life_tot_prof": 0.0,
             "year_beg_amnt": 3,
-            "year_add_amnt": 0,
-            "year_tot_amnt": 3,
+            "year_add_amnt": 2.0,
+            "year_tot_amnt": 5.0,
             "year_beg_cost": 253.35000000000002,
-            "year_add_cost": 0.0,
-            "year_tot_cost": 253.35000000000002,
-            "year_avg_cost": 84.45,
+            "year_add_cost": 202.25,
+            "year_tot_cost": 455.6,
+            "year_avg_cost": 91.12,
             "year_tot_divd": 3.87,
             "year_tot_prof": 0.0,
-            "year_end_valu": 308.58
+            "year_end_valu": 546.75
         }
     }
 }

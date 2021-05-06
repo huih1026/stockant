@@ -1,0 +1,57 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+	<!-- first table displays the year data: 3 rows, stock, etf, and total-->
+	<!-- <h4 align="center">Year Performance</h1><br> -->
+<div class="container">
+	<div class="jumbotron">
+		<h1 class="display-4">WATCHING ETFS</h1>
+		<p class="lead">This is the test information for stock investment tracking</p>
+		<hr class="my-4">
+		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		<p class="lead">
+		<a class="btn btn-primary btn-lg" href="/updatewatch" role="button"> - UPDATE - </a>
+		</p>
+	</div>
+	<br>
+
+	<table
+		data-toggle="table" 
+		data-search="true"
+		data-pagination="true"
+		data-page-list="[5, 10, 15, 25, ALL]"
+		data-show-columns="true" >
+		<thead class="thead-light" text-align="enter">
+			<tr>
+				<th scope="col">Symb</th>
+				<th scope="col" data-sortable="true">Divd</th>
+				<th scope="col" data-sortable="true">Expe</th>
+				<th scope="col" data-sortable="true">Mgmt</th>
+				<th scope="col">High</th>
+				<th scope="col">HDate</th>
+				<th scope="col">Price</th>
+				<th scope="col" data-sortable="true">OFF%</th>
+				<th scope="col" data-sortable="true">Gain10</th>
+				<th scope="col" data-sortable="true">Gain16</th>
+				<th scope="col" data-sortable="true">Gain20</th>
+				<th scope="col" data-sortable="true">6 MON</th>
+				<th scope="col" data-sortable="true">Y-T-D</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{% for row in table %}
+			  <tr>
+			    {% for each in row %}
+			      	<td scope="row">{{each}}</td>
+			    {% endfor %}
+			   </tr>
+		    {% endfor %}
+  		</tbody>
+	</table>
+</div>
+	<br>
+
+	
+{% endblock %}
